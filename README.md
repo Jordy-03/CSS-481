@@ -1,0 +1,1 @@
+This is my first ever serious website I'm creating. As of right now, it's 1/8/2025. Wish me luck >:)
