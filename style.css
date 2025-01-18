@@ -25,11 +25,11 @@ span {
 td {
     padding: 10px;
 }
-nav.main-page {
+/* nav.main-page {
     text-align: center;
     /* margin: 10px;
     border: 5px solid white; */
-}
+/* } */ */
 nav.default-page {
     text-align: right;
     padding-top: 15px;
@@ -47,4 +47,21 @@ img.portrait {
 }
 a:hover {
     color:teal;
+}
+nav.main-page {
+    display: flex;
+    justify-content: center;
+    height: 30px; /* Adjust as needed */
+}
+
+.pages {
+    padding: 0 10px; /* Adjust as needed */
+    border-right: 2px solid orange;
+    color: yellow;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+.pages:last-child {
+    border-right: none; /* Remove the right border from the last anchor */
 }
