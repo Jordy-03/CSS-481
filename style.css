@@ -1,3 +1,9 @@
+a {
+    font-size: 1.5rem;
+    color: yellow;
+    padding: 10px;
+    text-decoration: none;
+}
 body {
     color: white;
     background-color: black;
@@ -9,9 +15,21 @@ h1 {
 }
 img {
     display: block;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+nav.main-page {
+    text-align: center;
+    border-left: 5px solid white;
+}
+nav.default-page {
+    text-align: right;
+    padding-top: 15px;
+    padding-right: 15px;
 }
 .pages {
     text-align: center;
-    color: yellow;
+}
+a:hover {
+    color:teal;
 }
